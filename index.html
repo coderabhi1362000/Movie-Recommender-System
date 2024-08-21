@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.8.2/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.8.2/core.js"></script>
+</head>
+<body>
+    <div id="title">
+        Movie recommender System
+    </div>
+    <div id="user">
+        <input id="movie_name" placeholder="Enter a movie">
+        <button class="button-82-pushable" role="button">
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text">
+              Recommend
+            </span>
+          </button>
+    </div>
+    <py-script >
+        import numpy as np
+
+# Create two numpy arrays
+array1 = np.array([1, 2, 3, 4, 5])
+array2 = np.array([10, 20, 30, 40, 50])
+
+# Perform element-wise addition
+sum_array = array1 + array2
+
+# Perform element-wise multiplication
+product_array = array1 * array2
+
+# Calculate the mean of each array
+mean_array1 = np.mean(array1)
+mean_array2 = np.mean(array2)
+
+# Calculate the standard deviation of each array
+std_array1 = np.std(array1)
+std_array2 = np.std(array2)
+
+# Print results
+print("Array 1:", array1)
+print("Array 2:", array2)
+print("Sum of arrays:", sum_array)
+print("Product of arrays:", product_array)
+print("Mean of Array 1:", mean_array1)
+print("Mean of Array 2:", mean_array2)
+print("Standard Deviation of Array 1:", std_array1)
+print("Standard Deviation of Array 2:", std_array2)
+    </py-script> 
+</body>
+
+
+
